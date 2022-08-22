@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header: FC = () => {
   return (
-    <div className="navbar bg-primary px-2 lg:px-10">
+    <div className="navbar bg-primary px-2 lg:px-10 text-base-100">
       <div className="navbar-start">
         <div>
           <Image src="/sccs-logo.png" alt="logo" width={100} height={80} />
@@ -27,7 +27,7 @@ const Header: FC = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
-            <ul className="p-2">
+            <ul className="p-2 bg-primary z-30">
               <li>
                 <a>History</a>
               </li>
@@ -55,7 +55,7 @@ const Header: FC = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
-            <ul className="p-2">
+            <ul className="p-2 bg-primary z-30">
               <li>
                 <a>Support Services</a>
               </li>
@@ -99,7 +99,7 @@ const Header: FC = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
           >
             <li>
               <a>Our Stories</a>

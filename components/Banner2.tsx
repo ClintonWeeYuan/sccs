@@ -11,7 +11,7 @@ const Banner2: FC = () => {
         <div className="h-4 w-1/2 bg-primary"></div>
       </div>
 
-      <div>
+      <div className="px-5 lg:px-20">
         <h1 className="text-accent text-2xl mb-2 font-bold">
           Help Us to Help Kids Fight Cancer
         </h1>

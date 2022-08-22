@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Banner2 from "../components/Banner2";
+import Contact from "../components/Contact"
 const Home: NextPage = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <Header />
       <Banner />
       <Banner2 />
+      <Contact/>
       <Footer />
     </div>
   );

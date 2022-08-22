@@ -4,8 +4,8 @@ import { BsYoutube, BsFacebook, BsInstagram } from "react-icons/bs";
 
 const Footer: FC = () => {
   return (
-    <div className="bg-primary text-white flex flex-col lg:flex-row px-4 py-10 lg:px-10">
-      <div className="px-10 flex justify-center lg:block mb-4">
+    <div className="bg-primary text-white flex flex-col lg:flex-row justify-center px-4 py-10 lg:px-10 w-full">
+      <div className="px-10 flex justify-center lg:block mb-4 ">
         <Image src="/sccs-logo.png" alt="logo" width={120} height={120} />
       </div>
       <div>
