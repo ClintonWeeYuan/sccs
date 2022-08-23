@@ -12,7 +12,7 @@ const Contact: FC = () => {
         <h1 className="text-4xl mb-5">Contact Us</h1>
         <div className="mb-6 w-full md:w-1/3 ">
           <label htmlFor="username-success"
-                 className="block mb-2 text-sm font-medium text-gray-900 text-green-700 dark:text-green-500">Your
+                 className="block mb-2 text-sm font-medium text-gray-900   dark:text-green-400">Your
             name</label>
           <input type="text" id="username-success"
                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
